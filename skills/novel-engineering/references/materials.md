@@ -1,16 +1,16 @@
-# 图片、参考与临时灵感
+# Images, References, and Spontaneous Ideas
 
-作者可以直接添加文件、图片、短语或空文件夹。恢复创作、准备任务包、小弧规划时枚举实际内容与索引比较；提交前核对当前相关素材是否变化。没有工具监听就不声称后台监控。MCP未提供素材时由主agent显式补入。
+Authors may add images, files, phrases, or empty folders directly. When resuming creative work, preparing a brief, or planning an arc, compare actual contents with the index. Before saving a manuscript, check whether relevant materials have changed. Do not claim background monitoring without a watcher. If MCP does not supply materials, the lead must add them explicitly.
 
-保留原件和作者原话，AI解读另列。记录稳定ID、相对路径、作者定位、候选/必须落实、标签及依据。图片须实际查看；不可访问就记未查看，不根据文件名编造细节。图片中的外观不自动确立世界规则、历史、功能或物理尺度。
+Preserve originals and the author's exact explanation; keep AI interpretation separate. Record stable ID, relative path, author-defined meaning, candidate/required use, tags, and evidence. Actually inspect images; if inaccessible, record not viewed instead of inventing details from filenames. Visible appearance does not automatically establish world rules, history, function, or physical scale.
 
-把三个维度分开：
-- 场景存在状态：未写、已出现（注明作者确认或正文证据）、待核。
-- 素材处理状态：待整理、待安排、已安排、已采用、待解决冲突、暂存。
-- 细节采用状态：未核对、局部采用、已核对及具体章号/位置/版本。
+Separate three dimensions:
+- Scene existence: unwritten, already present with author confirmation or manuscript evidence, or unverified.
+- Material handling: unprocessed, awaiting placement, scheduled, used, conflict pending, or deferred.
+- Detail adoption: unchecked, partially adopted, or verified with chapter, location, and version.
 
-已有场景的图可以是视觉补充，不等于要安排一次新出场。宽泛主题无需作者先写成完整设定才进入候选。放进库不等于必须全用；明确要用的要追踪安排，延期给理由和复核节点。
+An image of an existing scene can be a visual supplement, not a request for a new first appearance. Broad themes can become candidates without requiring a complete setting description. Adding a file does not require every detail to be used. Track explicitly required material; postponement needs a reason and a review point.
 
-纯视觉参考可记“已整理·持续参考”，区别于搁置；参考要求必须保留不等于图中每个细节必须入文。尚未确定的细节是候选，没有矛盾证据时不标为冲突。
+Pure visual references may be marked organized/ongoing reference rather than deferred. A requirement to retain an image as reference does not require every depicted detail to enter the prose. Unconfirmed details are candidates, not conflicts without contradictory evidence.
 
-任务包素材栏写检查范围、新增/变化、本章引用ID/版本/拟用特点、相关暂缓项及理由；无适用项如实记，不硬塞。写作者将视觉转为人物行动和感受；审查者核对融合及设定兼容。正式保存回读后登记使用位置；返修删去时调整状态而保留历史。删除原件不自动取消作者要求。作者中途补充则评估当前任务影响并更新版本，不无限扩大范围。
+The brief's materials section records inspection scope, additions/changes, relevant IDs and versions, intended features, and related deferred items with reasons. Record no applicable material when appropriate instead of forcing scenery into the chapter. Writers turn visual qualities into action and perception; reviewers assess integration and consistency. After authoritative save and readback, record actual usage. If revisions remove it, update status while preserving history. Deleting a source file does not automatically revoke an author requirement. Assess mid-task additions and version the brief without expanding scope indefinitely.

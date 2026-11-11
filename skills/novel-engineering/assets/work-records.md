@@ -1,40 +1,40 @@
-# 可选工作记录模板
+# Optional Work Record Templates
 
-按当前任务选用，不要求全部建档；下列空项不得默认填“已完成”。
+Use only the forms the task needs. Do not create every record or default empty fields to completed. Fill these records in the author's requested working language.
 
-## 章节/场景任务包
+## Chapter or Scene Brief
 
-- 任务ID与范围：
-- 输入版本与事实来源：
-- 作者约束与自由发挥：
-- 起点、目标/体验、障碍或变化、终态：
-- 人物知情、伏笔、相关前后文：
-- 素材检查、新增项、本章引用、暂缓理由：
-- 写作责任人、产物路径、审查及验收条件：
+- Task ID and scope:
+- Input versions and evidence sources:
+- Author constraints and creative freedom:
+- Starting state, goal/experience, obstacle or change, ending state:
+- Character knowledge, setups/payoffs, relevant surrounding text:
+- Materials inspection, additions, current references, deferrals and reasons:
+- Writer, artifact path, review and acceptance conditions:
 
-## 审查记录
+## Review Record
 
-| ID | 版本与位置 | 证据 | 影响及判断性质 | 建议 | 裁决/理由 | 返修与复核 |
+| ID | Version and location | Evidence | Impact and judgment type | Suggestion | Decision/reason | Revision and recheck |
 |---|---|---|---|---|---|---|
 
-## 状态记录
+## Status Record
 
-| 对象 | 正文版本/保存 | 连续性 | 文学 | 记忆 | 提示处置 | 小弧阅读 | 证据/待办 |
+| Object | Manuscript version/save | Continuity | Literary | Memory | Finding disposition | Arc reading | Evidence/remaining work |
 |---|---|---|---|---|---|---|---|
 
-## 小弧目标与阅读报告
+## Arc Goal and Reading Report
 
-- 范围、输入版本、目标是否事后整理：
-- 起始处境、预期变化/体验、读者关心的问题与回应：
-- 第一阶段逐单元阅读轨迹（看目标卡前保存）：
-- 第二阶段目标对照、位置证据与修改建议：
-- 裁决、返修、阅读效果及连续性复核：
+- Scope, input versions, whether the goal was reconstructed retrospectively:
+- Starting situation, intended change/experience, reader questions and responses:
+- Phase-one reading trail by unit, saved before seeing the goal card:
+- Phase-two goal comparison, evidence locations, and revision suggestions:
+- Decisions, revisions, reading-effect and continuity rechecks:
 
-## 接续检查点
+## Continuation Checkpoint
 
-- 当前目标与作者决定：
-- 当前计划/状态源：
-- 任务ID、依赖、输入版本、执行者、状态、产物、下一动作：
-- 最近保存前后版本、回读/同步结果或待核项：
-- 素材变化、未解决意见与阻塞：
-- 下一执行者恢复时首先核对：
+- Current goal and author decisions:
+- Current planning/status sources:
+- Task IDs, dependencies, input versions, workers, statuses, artifacts, next actions:
+- Latest before/after save versions, readback/synchronization results, unverified operations:
+- Material changes, unresolved findings, and blockers:
+- First checks for the next worker:

@@ -1,20 +1,20 @@
-# 多agent协作与返修
+# Subagent Collaboration and Revision
 
-实质写作、批量审查可用subagent，简单任务直接处理。根据环境实际额度安排并发，不绑定模型或固定人数。没有子agent时串行做不同审查视角，并明确未达到独立审查。
+Use subagents for substantial writing or batch review; handle simple tasks directly. Schedule within the environment's actual capacity without prescribing models or fixed team sizes. If subagents are unavailable, perform distinct review passes serially and state that they were not independent reviews.
 
-| 职务 | 交付 | 权限 |
+| Role | Deliverable | Authority |
 |---|---|---|
-| 主agent | 任务包、裁决、定稿、验收及接续记录 | 唯一正式正文及共享事实源写入者 |
-| 写作者 | 草稿、返修稿、逐项回应 | 仅写指定产物目录 |
-| 连续性审查 | 时间、身份、能力、空间、知识和因果证据 | 不改正式稿 |
-| 文学审查 | 表达、节奏、人物声音和场景有效性建议 | 区分硬约束与偏好 |
-| 伏笔/资料 | 线索状态、素材调用、记忆更新提案 | 不把计划回灌成事实 |
-| 小弧阅读审查 | 连续阅读效果及位置证据 | 未参与该段写作，分阶段启动 |
+| Lead agent | Briefs, decisions, final drafts, acceptance and handoff records | Sole writer of the authoritative manuscript and shared fact sources |
+| Writer | Candidate drafts, revisions, responses to feedback | Assigned artifact directory only |
+| Continuity reviewer | Evidence about time, identity, abilities, space, knowledge, and causality | Does not edit authoritative prose |
+| Literary reviewer | Suggestions about expression, pacing, voice, and scene effectiveness | Distinguishes constraints from preferences |
+| Setup/payoff and records reviewer | Clue states, materials usage, memory update proposals | Does not turn plans into facts |
+| Arc reading reviewer | Sequential reading effects with locations and evidence | Did not write the reviewed passage; activated by stage |
 
-任务包带稳定ID、输入正文/草稿版本、范围、目标、依据、不可改项、产物路径和验收条件。一个章节只能有一个当前写作责任人。并行读取可以，不能并行覆盖同一草稿。子agent只返回结论、关键证据和产物路径，不要求主agent吸收所有历史。
+Give each task a stable ID, input manuscript/draft version, scope, goal, evidence, constraints, output path, and acceptance conditions. Assign one active writer per chapter. Parallel reading is allowed; concurrent overwrites of one draft are not. Subagents return conclusions, key evidence, and artifact paths rather than forcing the lead to absorb their full histories.
 
-常规路径：写作者交稿→独立审查→主agent合并裁决并下修订单→原写作者返修→相应审查者复核→主agent定稿保存。明确小笔误可由主agent修正；跨章结构修改先形成统一方案，再按依赖顺序执行。相邻章节通常逐章定稿，下章可预备方案但不能依赖未定事实。
+Normal sequence: writer submits a candidate; reviewers assess it; the lead consolidates and adjudicates feedback; the original writer revises; relevant reviewers recheck; the lead accepts and saves. The lead may fix clear minor errors directly. Establish a unified plan before cross-chapter structural changes and execute in dependency order. Normally finalize adjacent chapters sequentially; preparatory work on the next chapter must not treat an unsettled outcome as fact.
 
-每条审查意见包含ID、位置、版本、证据、影响、必须修正/建议优化/可保留、建议及最终处置。返修逐项答复。允许有依据保留，有意排比不是机械重复错误。两轮未收敛时收窄争议，由主agent按证据裁决；涉及核心作者选择才上交，不无限循环或投票改设定。
+Each finding includes ID, location, version, evidence, impact, required correction/recommended improvement/acceptable as written, proposed action, and final disposition. Writers respond item by item. Allow justified retention; deliberate parallelism is not automatically an error. If two rounds fail to converge, narrow the disagreement and let the lead decide from evidence. Escalate only genuinely author-level choices, not routine implementation. Do not loop indefinitely or vote to change canon.
 
-批量提示按规则类型分派只读审查，再按章合并修订；每处命中都查语境，不能只看工具第一段窗口。最终记录已修改/有依据保留/误报/待作者决定；待决定仍未关闭。计数随规则变化不代表正文修好。
+For batch scanner findings, delegate read-only review by type, then consolidate revisions by chapter. Inspect every occurrence, not just the first excerpt. Record corrected, retained with evidence, false positive, or awaiting author decision; the last remains open. A different count after changing rules does not mean the prose was repaired.

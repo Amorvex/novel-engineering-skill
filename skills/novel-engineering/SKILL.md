@@ -1,41 +1,43 @@
 ---
 name: novel-engineering
-description: 小说项目的写作、修订与交接工作流，覆盖事实与版本管理、可选多agent分工、章节审查、小弧阅读验收和图片灵感接入。用于持续创作或审校小说；不把简单创意问答强制变成长篇工程。
+description: Plan, write, revise, review, and hand off fiction projects using evidence-based continuity, versioned memory, optional subagent collaboration, arc-level reading reviews, and visual or idea references. Use for ongoing fiction work; do not turn simple brainstorming or typo fixes into a full production workflow.
 ---
 
-# 小说工程
+# Novel Engineering
 
-帮助作者把创作意图落实成连贯、有阅读价值且可继续维护的正文。保留作者的语言、题材、受众、结构和结局选择；不从其他作品带入禁词、章数、人物规则或叙事模板。
+Help the author turn creative intent into coherent, engaging fiction that remains maintainable across revisions and sessions. Preserve the author's genre, audience, voice, viewpoint, structure, and ending choices. Never import another project's characters, prohibitions, chapter counts, or narrative formulas.
 
-## 开始之前
+These instructions are in English; this does not determine the language of the story, reports, or conversation. Follow the author's requested language and preserve the manuscript's intended language and voice.
 
-先读项目实际说明、最近进度和任务记录，确认当前正文位置及工具连接。有已存在的目录和写入机制就沿用，不擅自迁移或重建。仅加载当前任务需要的设定与正文；按章节或场景顺序读取，不把全书无差别灌入上下文。
+## Establish the working context
 
-区分作者明确决定、已写正文事实、角色相信的内容、未来方案和AI建议。发生冲突记录证据，不能把猜测升级成设定。普通实现沿授权继续；需要改变作者核心方向时给出具体选项，不重新追问已经确认的事情。
+Read the project's actual instructions, current status, and task records. Locate the authoritative manuscript and verify tool connections. Reuse established directories and write interfaces rather than migrating or rebuilding without need. Load only relevant context; read manageable chapters or scenes in sequence instead of indiscriminately loading the entire novel.
 
-## 选择需要的参考
+Distinguish explicit author decisions, established manuscript facts, character beliefs, future plans, and AI suggestions. Record conflicting evidence rather than promoting guesses into canon. Continue ordinary implementation within authorization. Present concrete options when a change would alter the author's core direction; do not ask again about decisions already settled.
 
-- 新项目、类型适配、目录与状态设计：读[项目基线](references/project.md)。
-- 新章、实质返修或批量审查：读[协作与返修](references/collaboration.md)。简单查询或单处笔误直接处理。
-- 小弧/完整短篇完成或结构返修：读[阅读验收](references/arc-reading.md)。
-- 有图片、随手灵感或参考库：读[素材接入](references/materials.md)。
-- 长任务、上下文恢复、换执行者：读[版本与接续](references/continuation.md)。
-- 适配本地文件或MCP、构建任务上下文：读[工具适配](references/tools.md)。不要假设工具存在。
-- 需要落盘格式时选用[工作记录模板](assets/work-records.md)，不强迫建立所有空文件。
+## Load only the relevant references
 
-## 核心循环
+- New projects, genre adaptation, source layout, and status design: [Project baseline](references/project.md).
+- New chapters, substantive revisions, or batch reviews: [Collaboration and revision](references/collaboration.md). Handle simple questions and isolated typos directly.
+- Completed short stories, arcs, or structural revisions: [Reading review](references/arc-reading.md).
+- Images, spontaneous ideas, or reference libraries: [Materials](references/materials.md).
+- Long tasks, context recovery, or a change of lead agent: [Versions and continuation](references/continuation.md).
+- Local files, MCP integration, or task-context assembly: [Tool adaptation](references/tools.md). Do not assume tools exist.
+- When persistent forms are useful, select from [Work records](assets/work-records.md); do not create every empty template by default.
 
-1. 核对当前目标、版本和已确认约束，准备章节/场景任务包：输入事实、行动或体验目标、起终状态、知情边界、相关伏笔和素材、自由发挥范围。
-2. 草拟完整场景；作者已确认的剧情边界应在写作时遵守，而非等扫描器纠错。
-3. 分开核查连续性与文学效果。批量任务有可用subagent时按协作参考分工；写作者不能独自宣称通过独立审查。
-4. 主agent裁决有证据的意见，通常交原写作者返修。优先修场景结构与动机，再改表达。审美分歧不以多数票或单一分数决定。
-5. 主agent是唯一正式写入者。核对输入版本，保存后回读，记录实际变化与证据。工具具有版本保护时使用它；没有则按文件适配流程操作。
-6. 更新受影响的章记忆、人物状态、伏笔与任务进度。小弧阅读验收、语义审查和机械扫描分别记录，不用一句“完成”覆盖所有状态。
+## Core working loop
 
-## 质量边界
+1. Verify the goal, current versions, and confirmed constraints. Prepare a chapter or scene brief with input facts, action or experience goals, starting and ending states, knowledge boundaries, relevant setups and references, and creative freedom.
+2. Draft complete scenes. Observe established story constraints during writing rather than relying on a scanner to repair them later.
+3. Review continuity and literary effect separately. Use available subagents for substantial work as described in the collaboration reference. Writers cannot certify their own work as independently reviewed.
+4. The lead agent adjudicates evidence-based feedback and normally sends revisions to the original writer. Address scene structure and motivation before polishing sentences. Do not settle aesthetic disagreements by majority vote or a single score.
+5. Only the lead agent writes the authoritative manuscript. Verify the input version, save through the designated interface, read back, and record the actual change. Use version protection where supported; otherwise follow the file workflow.
+6. Update affected chapter memories, character states, setups/payoffs, and task status. Record arc reading review, semantic review, and mechanical checks separately rather than collapsing them into one completion label.
 
-不设置跨作品统一禁词、固定句式次数、每章爆点或最少字数。确定的作者剧情限制可作保底检查；关联词、句首、句式与段落重复只提供线索，须考虑文本长度、局部密度、人物口吻、排比及有意复沓。不能通过机械换同义词制造“合格”，也不能删除规则来伪造验收。
+## Quality boundaries
 
-不把新地点和术语当作故事推进；也不把安静、留白或开放结尾自动判为缺陷。按作品承诺检查人物、体验和语言效果。
+Do not impose universal banned words, construction quotas, chapter lengths, or mandatory twists. Explicit story constraints may have mechanical safeguards. Repeated connectors, openings, constructions, and paragraph functions are review signals: judge them against text length, local density, character voice, parallelism, and intentional repetition. Do not swap synonyms merely to lower counts or remove rules to manufacture a pass.
 
-报告明确：检查了什么、修改了什么、保留理由、仍待处理什么、依据哪个版本。工具不可用、未实际阅读、未独立审查、未确认提交的部分如实标出。不要自动新建聊天、发布作品或改动外部服务；这些行为需要用户在相应任务中授权。
+New locations and terminology alone do not establish narrative progress. Quiet passages, omissions, and open endings are not automatically defects. Evaluate character, experience, and language against the work's own promises.
+
+Report what was checked, changed, retained and why, what remains, and which version supports the conclusion. Disclose unavailable tools, unread material, absent independent review, and unverified saves. Do not automatically create chats, publish fiction, or modify external services; those actions require authorization in the relevant task.

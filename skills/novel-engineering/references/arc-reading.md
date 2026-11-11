@@ -1,13 +1,13 @@
-# 完整阅读单元验收
+# Reviewing a Complete Reading Unit
 
-在完整短篇、小弧初稿或多章结构返修后执行。未参与写作的审查者先以独立上下文顺序读正文，每次一个可管理单元；必要前文背景仅限读者已经知道的事实，不提前给未来答案。没有独立执行者时记录自查，保留待独立审查状态。
+Review a complete short story, an arc draft, or a structurally revised sequence. A reviewer who did not write the passage reads in presentation order with independent context, one manageable unit at a time. Necessary background must contain only what readers already know, not future answers. Without an independent reviewer, label the work self-review and leave independent review pending.
 
-写前目标卡包括起始处境、希望形成的变化或体验、读者关注的问题、主要场景作用。对已写文本后补目标须标“事后整理”，不能冒称作者原始意图。
+Before writing, a goal card records the starting situation, intended change or experience, reader questions, and scene functions. A card reconstructed for existing prose must be labeled retrospective, not passed off as original author intent.
 
-第一阶段不提供目标卡或写作者辩护；记录何处投入、困惑、疲倦、触动以及读者期待。先保存原始阅读轨迹，再在第二阶段对照目标卡、适用规则和作者决定。角色“不知道”不等于泄密，未解之谜不等于漏洞，开放结尾不等于缺失。
+In phase one, withhold the goal card and the writer's explanations. Record engagement, confusion, fatigue, emotional effects, and expectations. Save the original reading trail before phase two, when the reviewer compares it with goals, applicable rules, and author decisions. A character's uncertainty is not a knowledge leak; an unanswered mystery is not necessarily a plot hole; an open ending is not necessarily incomplete.
 
-第一阶段的任务“目标”只指阅读审查任务，不含故事预期答案。启动审查者时不继承含结局的父聊天、合并式计划或已有剧透报告；若已接触未来答案，应换未受影响的执行者，或明确降级为知情复核，不能要求其“忘掉”后仍称独立初读。
+The phase-one task goal describes the review assignment, not the intended story answer. Do not give the reviewer inherited parent-chat context containing the ending, combined planning documents, or spoiler-filled earlier reports. If exposure has occurred, use an unexposed reviewer or explicitly downgrade the pass to informed review. Asking a reviewer to forget spoilers does not restore a blind first reading.
 
-评估：阅读动力、人物选择和独立诉求、情绪积累、信息分配、场景功能、章节功能重复、语言/意象发展、回应与余味。按作品目标选择维度；日常文学可通过感知与关系变化推进，实验文本可追求形式效果，不强加冲突、反转或商业节奏。
+Evaluate reading momentum, character choices and independent motives, emotional accumulation, information distribution, scene function, repeated chapter functions, development of language and imagery, responses, and resonance. Select dimensions according to the work: quiet fiction can progress through perception and relationships, while experimental fiction may pursue formal effects. Do not impose conflict, twists, or commercial pacing.
 
-意见给出文本位置和证据、实际阅读影响、判断性质、修改选项；不只给分数，也不把一个AI视角称为普遍读者结论。先处理场景必要性/顺序与人物动机，再处理语言。由主agent裁决、原作者返修、阅读审查复核效果、连续性审查复核关联影响。独立记录范围、版本、状态和报告；有影响的修订使旧结论待复核。
+Feedback needs locations, textual evidence, actual reading effects, the nature of the judgment, and revision options, not just scores. One AI perspective is not a universal reader verdict. Address scene necessity/order and motivation before language. The lead adjudicates, the original writer revises, the reading reviewer rechecks the effect, and continuity reviewers assess related consequences. Record scope, version, status, and report separately; relevant revisions make earlier conclusions pending recheck.

@@ -1,13 +1,13 @@
-# 项目基线与类型适配
+# Project Baseline and Genre Adaptation
 
-已有项目先发现事实源和工作目录；不为套模板迁移文件。新项目只建立当前需要的正文、设定、规划、素材、任务记录目录，路径相对项目根；不要用外部目录链接伪装可复制项目。只有一份源数据可维护，分类副本须标为快照。
+For an existing project, discover authoritative sources and the working directory first. Do not migrate files to fit a template. For a new project, create only the manuscript, canon, planning, materials, and work-record directories currently needed, using project-relative paths. Do not present external directory links as a portable copy. Maintain one authoritative source; label other copies as snapshots.
 
-建立简短创作约定：题材与受众、篇幅意向、语言、叙述视角与距离、时间结构、作者决定范围、允许AI自由发挥范围、结局是否确定、哪些体验重要。已有信息可推知时不反复询问；未决定的明确留空，不编造作者意图。
+Establish a short creative agreement: genre and audience, intended scope, language, viewpoint and narrative distance, chronology, author-controlled decisions, permitted AI discretion, whether the ending is settled, and desired reading experiences. Infer what is already supported; do not repeatedly ask. Mark undecided matters explicitly instead of inventing author intent.
 
-类型是检查重点，不是限制：悬疑核对线索公平性和知情顺序；言情核对关系与情感发展；科幻奇幻核对机制代价及信息负担；现实主义核对生活因果与人物独立性；实验和非线性叙事核对其形式意图与阅读效果。类型混合时组合适用点，不强制线性时间、成长弧或圆满结局。
+Genres suggest review priorities, not formulas. Mystery may require fair clues and controlled knowledge; romance may emphasize relationship and emotional development; speculative fiction may require consistent mechanisms, costs, and manageable exposition; realism may emphasize lived causality and independent character motives. Experimental and nonlinear fiction should be assessed against formal intent and reading effect. Combine relevant priorities for mixed genres without requiring linear time, a growth arc, or a happy ending.
 
-短篇可按场景组织，一张目标卡和简短复核即可。长篇按小弧维护正文和计划，章节数随内容调整。中途更换方向保留决定及影响范围，不静默覆盖旧约定。
+A short story can use scenes, one goal card, and a concise review. Longer fiction benefits from arc-level planning and chapter records. Let chapter counts follow content. Preserve decision history and affected scope when direction changes rather than silently replacing the previous agreement.
 
-状态至少分开记录：正文保存状态及版本、连续性审查、文学审查、记忆确认、提示处置、小弧阅读验收。每项含状态、证据路径、核对版本和未解决问题。通常使用未开始/进行中/待返修/待复核/已验收/不适用；不适用须给理由。正文提交不等于全部通过，改稿后使相关旧结论过期。
+Track manuscript save/version, continuity review, literary review, memory verification, issue disposition, and arc reading review separately. Each dimension needs status, evidence location, reviewed version, and unresolved matters. Typical states: not started, in progress, revision needed, recheck needed, accepted, or not applicable with a reason. Saving a manuscript does not imply all reviews passed. Changes invalidate affected earlier conclusions.
 
-进度仅维护一个当前状态源，其他入口链接它或由它生成；历史报告保留时间和版本，不不停在多份文档顶部叠加互相覆盖的补丁。未来计划不写进“已发生”章记忆。
+Maintain one current status source. Other entry points should link to it or be generated from it. Preserve dated, versioned historical reports instead of stacking conflicting status overrides across many documents. Do not store future plans as completed events in chapter memory.

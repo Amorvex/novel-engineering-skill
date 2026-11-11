@@ -1,13 +1,13 @@
-# 文件与MCP适配
+# File and MCP Adaptation
 
-本skill不自带工具服务端。先发现宿主能力，记录语义能力与实际工具名称映射：状态、按章读取及版本、检索、上下文组装、草稿审计、受保护提交、回读、记忆与依赖健康。不存在的工具不能假装调用；不要把示例方法名当API。
+This skill does not include a tool server. Discover host capabilities and map semantic needs to real tool names: status, chapter reads and versions, search, context assembly, candidate-draft checks, protected saves, readback, and memory/dependency health. Never claim a nonexistent tool was called or treat illustrative method names as APIs.
 
-有既有MCP/CLI时遵守项目唯一写入入口，并核对连接的实际项目根。索引/数据库为派生数据时只改规定源资料并重建，不手改数据库。若没有写入能力，不绕过作者规定的只读连接。
+Use an existing project's designated MCP/CLI write interface and verify the connected project root. If indexes/databases are derived, update the approved sources and rebuild rather than editing the database. Do not bypass an author's read-only connection or write restrictions.
 
-文件模式：允许普通本地写作的项目，可按单章读取、对内容计算哈希并准备独立候选稿。保存前重读比较基线；冲突则重新核对，不覆盖用户修改。保存旧版本，使用同目录临时文件与原子替换，回读核对。原子替换不提供跨进程比较交换保证，只能在确认单写者条件下使用；需要多人并发时采用实际文件锁或版本控制。无需为短篇搭数据库。
+In projects permitting ordinary local file writes, read one chapter, hash the content, and prepare a separate candidate. Reread and compare the baseline before saving; investigate conflicts rather than overwriting user changes. Preserve the old version, use a same-directory temporary file and atomic replacement, then read back. Atomic replacement is not a cross-process compare-and-swap guarantee: use it only with a verified single writer. Concurrent writers need actual locking or version control. A short story does not require a database.
 
-任务上下文尽量短：当前作者约束、上一单元终态、相关人物知识/状态、伏笔、素材、未解决问题、源文本定位及版本。完整正文按需展开，检索未命中不等于不存在；不把无效记忆供作确定事实。审查草稿时使用实际候选文本，不能把只扫描已提交正文的工具冒称为草稿验收。
+Keep task context compact: current author constraints, prior unit's ending state, relevant character knowledge/state, setups/payoffs, materials, unresolved findings, and source locations/versions. Expand prose on demand. A failed search does not prove absence; stale memory is not established fact. Review the actual candidate draft: a tool that scans only saved prose cannot certify an unsaved candidate.
 
-结构化建议、素材索引和文风扫描只能辅助判断。语义重复、因果、人物动机及阅读效果需要实际读文。维护机械规则时留旧版本和基线，报告新旧计数不可直接比较为质量提升。
+Structured suggestions, material indexes, and style scanners assist judgment. Semantic repetition, causality, motivation, and reading effects require actual reading. Preserve prior rules and baselines when changing mechanical checks; different counts are not a measure of quality improvement.
 
-文件能力不足时按实际风险降级：有单写者、备份与可靠回读但无原子替换的低影响小修，可在项目允许时普通保存并明确方式；不能确认写入安全或无正式写权限时，只交候选差异，不宣称已提交。不要为单处笔误引入数据库或全篇审查。
+Degrade according to actual capability and risk. For a low-impact edit with a single writer, backup, and reliable readback but no atomic replacement, an ordinary save is acceptable when project rules allow it; disclose the method. If safe writing or authority cannot be established, deliver a candidate diff without claiming it was committed. Do not introduce a database or whole-work review for one typo.

@@ -1,15 +1,15 @@
-# 版本记忆与接续
+# Versioned Memory and Continuation
 
-章记忆是版本化的提要，不是替代正文的真相。保存正文版本标识、前置依赖、摘要、视角、时空、人物变化和伏笔证据；分清客观事实、角色认知与猜测。正文或依赖改变后，相关记忆与审查结论标待复核，不机械复制旧摘要。按实际影响查相邻桥接及远距线索，必要时扩大范围。
+Chapter memory is a versioned summary, not a replacement for the manuscript. Store the manuscript version, upstream dependencies, synopsis, viewpoint, time/place, character changes, and setup/payoff evidence. Distinguish facts, beliefs, and speculation. After prose or dependencies change, mark affected memories and reviews pending recheck rather than copying old summaries. Assess adjacent transitions and distant clues according to actual impact; broaden the check when evidence requires it.
 
-派发前、交稿后、裁决后、提交前后及章节/审查批次完成时更新短接续入口。无需等到上下文快满；没有精确余量信息时不能承诺固定百分比切换。
+Update a short continuation entry before dispatch, after delivery and adjudication, before and after authoritative saves, and at chapter/review-batch boundaries. Do not wait for context exhaustion or promise switching at a fixed percentage when remaining capacity is not visible.
 
-保存当前目标、作者新决定、计划入口、稳定任务ID、依赖和输入版本、执行者ID（若可用）、状态、产物路径、未审意见、提交前后版本、是否回读和同步、下一具体动作。状态明确区分执行中、交稿待审、返修中、已验收、提交结果待核、已提交待同步、已关闭。
+Persist goals, new author decisions, planning links, stable task IDs, dependencies and input versions, worker IDs when available, statuses, artifact paths, unreviewed findings, before/after save versions, readback/synchronization state, and the next concrete action. Distinguish running, delivered awaiting review, revising, accepted, save result unverified, saved awaiting synchronization, and closed.
 
-子agent阶段成果落盘，不能只发聊天消息。换主agent时收束当前批次并保存未完成项；不假设新聊天能控制旧agent ID。恢复先查询可访问的运行状态，读取产物并检查版本，再续最小未完成单元。旧agent迟到成果不覆盖新稿。
+Subagents save intermediate artifacts, not just chat messages. Before a lead handoff, close out the current batch and persist unfinished work. Do not assume a new chat controls old agent IDs. Recovery begins by querying accessible runtime status, reading artifacts, and checking versions, then resumes the smallest unfinished unit. Late results never automatically overwrite a newer draft.
 
-一个任务只有一个正式提交者。提交结果未知时，先读当前正文及历史证据；已保存则补回读/同步，未保存且基线仍相符才续提；无法判断则保持待核，不盲重试。检查点不是原子锁，多进程写入必须依赖实际工具锁或停止并行写入。
+Allow one authoritative writer per task. If a save outcome is unknown, inspect the actual manuscript and history first. If saved, finish readback/synchronization; if not saved and the baseline still matches, proceed. Otherwise leave it unverified rather than blindly retrying. A checkpoint is not an atomic lock; concurrent processes require real tool locks or stopped parallel writes.
 
-交接记录应含旧提交者、退出/停止的可核证状态、新提交者和接手时间；缺少这类证据且旧写者可能仍写入时，保持正式提交待核。单纯登记名字不能建立互斥，但可以继续只读核查和独立候选稿准备。
+Record the previous writer, verifiable stopped/released status, successor, and handoff time. If another authoritative writer might still be running and cannot be ruled out, keep final writes pending. Naming a successor does not create mutual exclusion; read-only checks and separate candidate preparation may continue.
 
-不自动创建新聊天。用户选择新聊天时，交付项目根、接续入口和下一步，不要求重新讲全部剧情。不重读全书或重跑已验收任务来替代恢复。
+Do not automatically create a new chat. If the user chooses one, provide the project root, continuation entry, and next action without requiring a full retelling. Do not substitute rereading the whole novel or repeating accepted work for recovery.
